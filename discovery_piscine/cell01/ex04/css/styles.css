@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+}
+
+.center {
+    text-align: center;
+}
+
+#first_h1 {
+    color: white;
+}
+
+#media-container {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 2rem;
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0;
+}
+
+figcaption a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+hr {
+    color: red;
+}
+
+footer {
+    text-align: right;
+    font-family: monospace;
+}
