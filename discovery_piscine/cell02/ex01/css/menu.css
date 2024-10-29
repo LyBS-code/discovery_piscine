@@ -1,0 +1,12 @@
+header {
+    width: 80%; 
+    margin: 0 auto; 
+    background-color: #c7abab; 
+    padding: 20px; 
+    text-align: center; 
+    border-radius: 15px;
+
+}
+body {
+    background-color: #222222;
+}
