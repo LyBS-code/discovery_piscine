@@ -1,0 +1,39 @@
+* {
+    margin:0%;
+}
+
+#trans {
+    background-image: url("../assets/img/trans.png");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+#block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-color: black;
+    font-size: 36px;
+    color: white;
+}
+
+#lesbian {
+    background-image: url("../assets/img/lesbian.png");
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
