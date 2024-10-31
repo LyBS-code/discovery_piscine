@@ -1,0 +1,36 @@
+table {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+th,td {
+
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img { 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+}

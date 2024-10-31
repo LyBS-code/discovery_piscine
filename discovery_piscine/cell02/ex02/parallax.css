@@ -1,0 +1,48 @@
+*{
+    margin:0%;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("chat1.jpg");
+  
+    /* Set a specific height */
+    min-height: 1000px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment : fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:300px;
+    background-color:black;
+    font-size:36px;
+    color:white;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("chat2.jpg");
+
+    /* Set a specific height */
+    min-height: 1000px;
+    /* Create the parallax scrolling effect */
+    background-attachment : fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
