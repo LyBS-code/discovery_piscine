@@ -1,0 +1,15 @@
+section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+copyright {
+    color: white;
+    display: flex;
+    font-family: monospace;
+    font-style: italic;
+    align-items: right;
+    justify-content: right;
+}
