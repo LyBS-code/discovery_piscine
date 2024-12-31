@@ -1,41 +1,27 @@
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Menu</title>
-        <link rel="stylesheet" href="menu.css" />
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header>
+        <h1>Le menu de la Sncf</h1>
+        <p>Heureux de vous accueillir</p>
+    </header>
+    <div>
+        <select name="food" id="menu">
+            <option disabled selected value>Choisisez ce que vous voulez manger</option>
+            <optgroup label="Sandwitch">
+                <option value="#">Sandwich au diesel</option>
+                <option value="#">Burger au Manganèse</option>
+            </optgroup>
 
-    <body>
-        <div class="en-tete">
-            
-            <h1>
-                <br>
-                Menu des roulants
-            </h1>
+        </select>
 
-            <h1><br></h1>
-            
-            <hr size="4" color="white">
-        </div>
+    </div>
 
-        <div class="menu">
-            <label for="food-select">Que voulez-vous manger ? :</label> 
-
-            <select name="foods" id="food-select">
-                <option hidden value="#" >--Please choose an option--</option>
-        
-                <optgroup class="title" label="Sandwiches">
-                    <option class="option" value="poulet">Poulet</option>
-                    <option class="option" value="thon">Thon</option>
-                    <option class="option" value="veggie">Veggie</option>
-                </optgroup>
-    
-                <optgroup class="title" label="Salades">
-                    <option class="option" value="caesar">Caesar</option>
-                    <option class="option" value="thon">Thon</option>
-                    <option class="option" value="veggie">Veggie</option>
-                </optgroup>
-            </select>
-        </div>
-    </body>
+</body>
 </html>
